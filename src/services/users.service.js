@@ -26,7 +26,7 @@ async function deleteuser(userId) {
     if (index >= 0) {
         let user = users[index];
         users.splice(index, 1);
-        return {
+        return { 
             user,
             message: 'user deleted'
         }
